@@ -33,14 +33,16 @@
 <div class="container-fluid p-5 my-5 bg-primary bg-gradient-opacity-50  text-white">
   
   <h1>Hello,I'm Charlie Tran </h1>
-  <h3>Security Engineer</h3>
-  <p>This is my portfolio. You are more than welcome to view anything that might intrest you. </p>
-  <p>Below are some quick links.</p>
+  <h3>Major: Cybersecurity</h3>
+  <p class="fs-4"><br>This is my portfolio project. You are more than welcome to view anything that might intrest you. </p>
+  <p class="fs-4">Below are some quick links.</p>
 
+
+  <!-- bi is for screen readers. <i> is to italic. me-2 gives a small gap. aria-hidden = true is for screen readers only read the words  -->
    <div clas="btn-group" >
-      <button type="button" class="btn btn-outline-light  " ><a href="projects.html" class="btn-primary active text-black " aria-current="page"><b>Projects</b></a></button>
-      <button type="button" class="btn btn-outline-light" ><a href="aboutme.html" class="btn-primary active text-black" aria-current="page"><b>About</b></a></button>
-      <button type="button" class="btn btn-outline-light" ><a href="https://github.com/charlieT983/web-version-control-portfolio-project" class="btn-primary active text-black" aria-current="page"><b>Github</b></a></button>
+      <a href="projects.html" class="btn btn-outline-dark fw-bold active " aria-current="page"><i class="bi bi-folder me-2" aria-hidden="true"></i>Projects</a>
+      <a href="aboutme.html" class="btn btn-outline-dark fw-bold active" aria-current="page"><i class="bi bi-person me-2" aria-hidden="true"></i>About</a>
+      <a href="https://github.com/charlieT983/web-version-control-portfolio-project" class="btn btn-outline-dark fw-bold active" aria-current="page"><i class="bi bi-github me-2" aria-hidden="true"></i>Github</a>
       
       </div>
 
@@ -67,3 +69,5 @@
        $("#nav-placeholder").load("navbar.html #site-nav");
    </script>
 </body>
+
+</html>
