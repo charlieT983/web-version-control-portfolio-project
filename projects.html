@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark" > 
 
-<head>
+
 
 <head>
    <title>Bootstrap Example</title>
@@ -24,7 +24,7 @@
 
 </head>
 
-
+<!-- The d-flex + flex-column + min-vh-100 creates a full height vertical flex container -->
 <body class="d-flex flex-column min-vh-100">
 
    <!-- Navbar gets added here -->
@@ -41,23 +41,28 @@
 
     <div>
         <table class="table">
-            <thread>
+            <thead>
             <tr>
                 <th class="fs-4" scope="col">#</th>
                 <th class="fs-4" scope="col">Project</th>
                 <th class="fs-4" scope="col">description</th>
             </tr>
-            </thread>
+            </thead>
         <tbody>
             <tr>
                 <th class="fs-4" scope="col">1</th>
                 <td class="fs-4">Portfolio using html and bootstrap 5</td>
-                <td class="fs-4">This project taught me a lot about bootstap and coding in general.</td>
+                <td class="fs-4">This project taught me a lot about bootstap and coding in general.
+                    <a href="https://github.com/charlieT983/web-version-control-portfolio-project" class="btn btn-primary fw-bold "aria-label="Repo For Portfolio"><i class="bi bi-github me-2" aria-hidden="true"></i>Repo For Portfolio</a>
+                </td>
             </tr>
             <tr> 
                 <th class="fs-4" scope="col">2</th>
                 <td class="fs-4">Python Mini projects</td>
-                <td class="fs-4"> I have done some mini projects in python for my CIS 20110 class. Most involves basic python to find speed or grades. <a href="https://github.com/charlieT983/CIS_Python_Fall_2026" class="btn btn-primary fw-bold active"aria-current="page"><i class="bi bi-github me-2" aria-hidden="true"></i>Repo For Python</a></td>
+                <td class="fs-4"> I have done some mini projects in python for my CIS 20110 class. Most involves basic python to find speed or grades. The image below is for my homework 5 assignment and is of the resulats of the ran progrem. 
+                    <a href="https://github.com/charlieT983/CIS_Python_Fall_2026" class="btn btn-primary fw-bold active"aria-label="Repo For Python"><i class="bi bi-github me-2" aria-hidden="true"></i>Repo For Python</a>
+                    <img src="images/images/Screenshot 2026-10-01 104824.jpg" class="rounded" width="350" height="300" alt="Screenshot of Python home work 5 project"></td>
+                    
             </tr>
 
             </tbody>
@@ -71,7 +76,7 @@
 
 
 
-
+<!--mt-auto does a sticky footer-->
 <footer class="container-fluid p-4 mt-auto bg-black bg-gradient ">
    <h5> contacts</h5>
    <ul class="list-group list-group-horizontal">
